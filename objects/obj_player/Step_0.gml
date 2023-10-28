@@ -1,10 +1,15 @@
-/// @description Handles Movement and Collision
+/// @description Get Input & Speed / shoot bullet
 
-//Basic Controls
+//get xy input from WASD keyboard presses
 var _xinput = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 var _yinput = keyboard_check(ord("S")) - keyboard_check(ord("W"));
-move_and_collide(_xinput * my_speed, _yinput * my_speed, obj_wall);
 
+//set current speed based on xy input
+spdx = _xinput;
+spdy = _yinput;
+
+
+//if left mouse button is pressed create bullet
 if mouse_check_button_pressed(mb_left)
 {
 	instance_create_layer(x, y, layer, obj_bullet);
