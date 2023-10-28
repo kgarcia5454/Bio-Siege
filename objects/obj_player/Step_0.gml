@@ -5,8 +5,8 @@ var _xinput = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 var _yinput = keyboard_check(ord("S")) - keyboard_check(ord("W"));
 
 //set current speed based on xy input
-spdx = _xinput;
-spdy = _yinput;
+spdx = _xinput * my_speed;
+spdy = _yinput * my_speed;
 
 
 //if left mouse button is pressed create bullet

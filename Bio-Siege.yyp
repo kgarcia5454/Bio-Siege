@@ -33,7 +33,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.8.0.98",
+    "IDEVersion": "2023.8.2.108",
   },
   "resources": [
     {"id":{"name":"obj_Game_Mode","path":"objects/obj_Game_Mode/obj_Game_Mode.yy",},},
@@ -43,6 +43,7 @@
     {"id":{"name":"s_placeholder_enemy","path":"sprites/s_placeholder_enemy/s_placeholder_enemy.yy",},},
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
     {"id":{"name":"tCollisionTile","path":"tilesets/tCollisionTile/tCollisionTile.yy",},},
+    {"id":{"name":"rm_starting_area_Example","path":"rooms/rm_starting_area_Example/rm_starting_area_Example.yy",},},
     {"id":{"name":"sCollisionTile","path":"sprites/sCollisionTile/sCollisionTile.yy",},},
     {"id":{"name":"s_arrow","path":"sprites/s_arrow/s_arrow.yy",},},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
@@ -58,6 +59,7 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_title_screen","path":"rooms/rm_title_screen/rm_title_screen.yy",},},
     {"roomId":{"name":"rm_starting_area","path":"rooms/rm_starting_area/rm_starting_area.yy",},},
+    {"roomId":{"name":"rm_starting_area_Example","path":"rooms/rm_starting_area_Example/rm_starting_area_Example.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [

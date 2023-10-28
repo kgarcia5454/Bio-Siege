@@ -4,5 +4,5 @@
 
 if keyboard_check(vk_space)
 {
-	room_goto(rm_starting_area)
+	room_goto(rm_starting_area_Example)
 }
