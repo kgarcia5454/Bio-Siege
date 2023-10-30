@@ -1,4 +1,6 @@
-my_speed = 4 //move speed of the entity
+
+
+my_speed = 4; //move speed of the entity
 
 //the current horizontal speed of the entity
 spdx = 0;
