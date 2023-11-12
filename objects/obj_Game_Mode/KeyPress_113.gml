@@ -1,10 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if debug_graph 
-	debug_graph = false;
+if debug_collision
+	debug_collision = false;
 else
-	debug_graph = true;
+	debug_collision = true;
+
 
 
 

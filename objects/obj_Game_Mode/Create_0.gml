@@ -1,6 +1,8 @@
-/// @description Insert description here
-// You can write your code in this editor
-debug = false;
+// The following code will contain variables 
+
+debug_graph = false;
+debug_collision = false;
+
 
 
 
