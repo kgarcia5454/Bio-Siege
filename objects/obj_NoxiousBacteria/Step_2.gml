@@ -1,7 +1,7 @@
 /// @desc Tile Collision & Movement
 
-//stop entity speed on collision with tile
-EntityCollisionTileCheck_stop();
+//bounce entity speed on collision with tile
+EntityCollisionTileCheck_bounce();
 
 //move entity by speed
 EntityMove(spdx,spdy);

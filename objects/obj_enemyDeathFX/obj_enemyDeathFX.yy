@@ -1,13 +1,15 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_enemy",
-  "eventList": [],
+  "name": "obj_enemyDeathFX",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Enemies",
-    "path": "folders/Objects/Entities/Enemies.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -24,10 +26,10 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": true,
+  "solid": false,
   "spriteId": {
-    "name": "s_placeholder_enemy",
-    "path": "sprites/s_placeholder_enemy/s_placeholder_enemy.yy",
+    "name": "s_placeholder_enemyDeathFX",
+    "path": "sprites/s_placeholder_enemyDeathFX/s_placeholder_enemyDeathFX.yy",
   },
   "spriteMaskId": null,
   "visible": true,

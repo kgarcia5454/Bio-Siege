@@ -1,4 +1,4 @@
-/// @description Get Input & Speed / shoot bullet
+/// @description Get Input & Movement / shoot bullet
 
 //get xy input from WASD keyboard presses
 var _xinput = keyboard_check(ord("D")) - keyboard_check(ord("A"));
