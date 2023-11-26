@@ -6,6 +6,13 @@ if debug_collision
 else
 	debug_collision = true;
 
+/* if debug_collision
+	layer_set_visible(tilemap, true);
+else
+	layer_set_visible(tilemap, false);*/
+
+	
+
 
 
 
