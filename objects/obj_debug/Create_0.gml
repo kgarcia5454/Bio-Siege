@@ -1,10 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if debug_graph 
-	debug_graph = false;
-else
-	debug_graph = true;
+
+debug_graph = false;
+debug_collision = false;
+
+show_debug_overlay(false,false,1.2,.5);
+
 
 
 
