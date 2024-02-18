@@ -1,0 +1,42 @@
+{
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_button_basic",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+  ],
+  "managed": true,
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_UI_Button_parent","path":"objects/obj_UI_Button_parent/obj_UI_Button_parent.yy",},"propertyId":{"name":"Button_text","path":"objects/obj_UI_Button_parent/obj_UI_Button_parent.yy",},"value":"\"Start\"",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_UI_Button_parent","path":"objects/obj_UI_Button_parent/obj_UI_Button_parent.yy",},"propertyId":{"name":"Button_target","path":"objects/obj_UI_Button_parent/obj_UI_Button_parent.yy",},"value":"1",},
+  ],
+  "parent": {
+    "name": "Buttons",
+    "path": "folders/Objects/Buttons.yy",
+  },
+  "parentObjectId": {
+    "name": "obj_UI_Button_parent",
+    "path": "objects/obj_UI_Button_parent/obj_UI_Button_parent.yy",
+  },
+  "persistent": false,
+  "physicsAngularDamping": 0.1,
+  "physicsDensity": 0.5,
+  "physicsFriction": 0.2,
+  "physicsGroup": 1,
+  "physicsKinematic": false,
+  "physicsLinearDamping": 0.1,
+  "physicsObject": false,
+  "physicsRestitution": 0.1,
+  "physicsSensor": false,
+  "physicsShape": 1,
+  "physicsShapePoints": [],
+  "physicsStartAwake": true,
+  "properties": [],
+  "solid": false,
+  "spriteId": {
+    "name": "s_placeholder_button",
+    "path": "sprites/s_placeholder_button/s_placeholder_button.yy",
+  },
+  "spriteMaskId": null,
+  "visible": true,
+}
